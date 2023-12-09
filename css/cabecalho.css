@@ -1,0 +1,109 @@
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: var(--branco);
+    height: 80px;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.logo__item {
+    width: 130px;
+}
+
+.pesquisar__input {
+    padding: 8px;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 32px 0px 0px 32px;
+    font-size: 16px;
+}
+
+.pesquisar__input-teclado{
+    position: absolute;
+    right: 16%;
+    top: 30%;
+}
+
+.pesquisar__btn {
+    background-color: var(--cinza-claro);
+    border: 0px;
+    border-radius: 0px 32px 32px 0px;
+    padding: 8px;
+    padding-right: 15px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.cabecalho__audio {
+    border: 0px;
+    background-color: var(--branco);
+    margin-left: 10px;
+}
+
+.cabecalho__videos {
+    background-image: url(../img/topbar/video_call.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.cabecalho__apps {
+    background-image: url(../img/topbar/apps.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 13px 30px 13px 13px;
+}
+
+.cabecalho__notificacoes {
+    background-image: url(../img/topbar/notifications.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 13px 30px 13px 13px;
+}
+
+.cabecalho__avatar {
+    background-image: url(../img/topbar/Avatar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 13px 30px 13px 33px;
+}
+
+.lua {
+    display: none;
+}
+  
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+.form__pesquisa {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__icones__item {
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+
+@media screen and (min-width: 480px) {
+    .lua {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1156px) {
+    .cabecalho__pesquisar__item {
+      display: block;
+    }
+  
+    .pesquisar__input {
+      width: 500px;
+    }
+}
