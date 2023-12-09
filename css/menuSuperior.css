@@ -8,6 +8,7 @@
     background-color: var(--branco);
     position: fixed;
     top: 80px;
+    z-index: 1;
 }
 
 .superior__secao__container-wrapper{
