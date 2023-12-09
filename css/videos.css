@@ -62,6 +62,10 @@ iframe{
     .videos__container {
         margin-top: 3rem;
     }
+
+    .videos__item:hover {
+        scale: 1;
+    }
 }
 
 @media(min-width: 616px) {
