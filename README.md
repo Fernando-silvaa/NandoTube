@@ -7,11 +7,11 @@
 
 <h2>📱 Layout para tablet</h2>
 
-<img style="width: 50%" src="./assets/nandoTube_tablet.jpg" alt="Página do projeto NandoTube para tablet">
+<img style="width: 50%" src="./assets/nando-tablet.png" alt="Página do projeto NandoTube para tablet">
 
 <h2>📱 Layout para mobile</h2>
 
-<img style="width: 50%" src="./assets/nandoTube_mobile.jpg" alt="Página do projeto NandoTube para mobile">
+<img style="width: 50%" src="./assets/nando-mobile.png" alt="Página do projeto NandoTube para mobile">
 
 <h2>Tecnologias utilizadas</h2>
 <div style="display: flex">
